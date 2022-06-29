@@ -9,6 +9,7 @@ module.exports = {
       '/image',
       '/transform',
       '/animation',
+      '/operation',
     ]
   }
 }
