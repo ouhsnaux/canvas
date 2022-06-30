@@ -36,17 +36,17 @@
 * scale 通过设置a 和 d实现
 * rotate 通过设置a, b, c, d, 其中 `a=cos(θ), c=-sin(θ), b=sin(θ), d=cos(θ)`
 
-<!-- TODO 推导发现 b和c反了，实践证明b和c没反，绕晕了 -->
 ```
-设点 A(x, y) 与x轴的夹角为 α，OA长度为 r，顺时针旋转 θ 后得到点 A' (x1, y1)
-则 A' 与x轴的夹角为 α - θ
+设点 A(x, y) 与x轴的夹角为 α，OA长度为 r，顺时针旋转 θ 后得到点 A' (x1, y1)。
+canvas坐标系与数字坐标系不同，y轴方向相反，
+则 A' 与x轴的夹角为 α + θ，
 x = r * cos(α) ①
 y = r * sin(α) ②
-x1 = r * cos(α - θ) ③
-y1 = r * sin(α - θ) ④
+x1 = r * cos(α + θ) ③
+y1 = r * sin(α + θ) ④
 展开③ ④得到
-x1 = r * (cos(α) * cos(θ) + sin(α) * sin(θ)) = x * cos(θ) + y * sin(θ)
-y1 = r * (sin(α) * cos(θ) - cos(α) * sin(θ)) = y * cos(θ) - x * sin(θ)
+x1 = r * (cos(α) * cos(θ) - sin(α) * sin(θ)) = x * cos(θ) - y * sin(θ)
+y1 = r * (sin(α) * cos(θ) + cos(α) * sin(θ)) = x * sin(θ) + y * cos(θ)
 ```
 
 ## 组合
