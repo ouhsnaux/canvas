@@ -36,7 +36,7 @@
 * scale 通过设置a 和 d实现
 * rotate 通过设置a, b, c, d, 其中 `a=cos(θ), c=-sin(θ), b=sin(θ), d=cos(θ)`
 
-```
+```theory
 设点 A(x, y) 与x轴的夹角为 α，OA长度为 r，顺时针旋转 θ 后得到点 A' (x1, y1)。
 canvas坐标系与数字坐标系不同，y轴方向相反，
 则 A' 与x轴的夹角为 α + θ，

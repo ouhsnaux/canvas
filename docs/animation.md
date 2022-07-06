@@ -3,7 +3,7 @@
 ## 动起来
 
 * setTimeout / setInterval
-* requestAnimation
+* requestAnimationFrame 递归调用
 
 ## 变化
 

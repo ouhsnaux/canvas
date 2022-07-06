@@ -24,11 +24,11 @@
 ### 线形
 
 * lineTo(x, y) 直线
-<!-- counterclockwise 是否逆时针 -->
-* arc(x, y, radius, startAngle, endAngle, counterclockwise) 弧线1
+* arc(x, y, radius, startAngle, endAngle, counterclockwise) 弧线1 counterclockwise表示是否逆时针
 * arcTo(x1, y1, x2, y2, radius) 弧线2
 * rect(x, y, width, height) 方形线
-  <!-- TODO 贝塞尔曲线 -->
+
+TODO 贝塞尔曲线
 
 ### Path2D
 
