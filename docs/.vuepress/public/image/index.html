@@ -10,10 +10,17 @@
   <canvas id="image-repeat" width="200px" height="200px"></canvas>
   <canvas id="image-pattern" width="200px" height="200px"></canvas>
   <canvas id="slice" width="200px" height="200px"></canvas>
+  <canvas id="Mosaic" width="200px" height="200px"></canvas>
+  <canvas id="video-canvas" width="200px" height="360px"></canvas>
+  <!-- <button onclick="play">播放</button>
+  <button onclick="pause">暂停</button> -->
   <div style="display: none">
-    <img id="source" src="https://mdn.mozillademos.org/files/5397/rhino.jpg" width="300" height="227">
-    <img id="frame" src="https://mdn.mozillademos.org/files/242/Canvas_picture_frame.png" width="132" height="150">
+    <img id="source" src="./rhino.jpg" width="300" height="227">
+    <img id="frame" src="./Canvas_picture_frame.png" width="132" height="150">
   </div>
+  <input id="text" />
+  <button onclick="addText()">添加字幕</button>
+  <video id="video" src="./video.mp4" width="200px" controls></video>
   <script src="./index.js"></script>
 </body>
 </html>

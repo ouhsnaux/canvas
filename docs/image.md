@@ -34,7 +34,7 @@ type: repeat, repeat-x, repeat-y, no-repeat
 
 * width
 * height
-* data 数组，`长度为 width * height * 4`，每4个元素表示 R/G/B/A，每个元素取值都是0~255
+* data 数组，`长度为 width * height * 4`，每4个元素表示 R/G/B/A，每个元素取值都是0~255，**透明度设置为0和1都是看不到的**
 
 ```js
 // 获取第row行，第column列像素的代码的Blue部分
